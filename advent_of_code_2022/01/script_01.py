@@ -39,7 +39,7 @@ for line in lines:
         total_calories.append(sum_)       
         
 max_calories = max(total_calories)
-print(max_calories)
+print("Answer 1: {}".format(max_calories))
 
 
 # %% Part 2
@@ -47,3 +47,4 @@ calories_series = pd.Series(total_calories)
 calories_series = calories_series.sort_values(ascending=False)
 
 answer = sum(calories_series.tolist()[0:3])
+print("Answer 2: {}".format(answer))
