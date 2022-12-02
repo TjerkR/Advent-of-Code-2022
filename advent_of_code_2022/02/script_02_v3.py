@@ -35,7 +35,9 @@ d_mapping = {
 }
 data = data.replace(d_mapping)
 
-match_scores = [((me + 1 - them) % 3) * 3 for me, them in zip(data["me"], data["them"])]
+match_scores = [
+    ((me + 1 - them) % 3) * 3 for me, them in zip(data["me"], data["them"])
+]
 
 shape_scores = [(me + 1) for me in data["me"]]
 
