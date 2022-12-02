@@ -8,6 +8,7 @@ authors = ["tjerk <tjerk@littlerocket.nl>"]
 python = "~3.9"
 spyder = "^5.3.0"
 lr-data-library = {git = "git@gitlab.littlerocket.team:littlerocket/data-internal/LR-data-library.git"}
+pre-commit = "^2.20.0"
 
 
 [build-system]
