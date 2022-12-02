@@ -11,7 +11,6 @@ v1: Lekker hardcoden
 
 import numpy as np
 import pandas as pd
-import lr_data_lib
 
 
 # %% Import data

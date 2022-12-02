@@ -11,7 +11,6 @@ v2: v1 maar dan met functies
 
 import numpy as np
 import pandas as pd
-import lr_data_lib
 
 
 # %% Import data
