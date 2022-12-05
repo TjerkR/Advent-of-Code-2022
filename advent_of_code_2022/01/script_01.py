@@ -9,7 +9,6 @@ Created on Thu Dec  1 00:08:00 2022
 
 import numpy as np
 import pandas as pd
-import lr_data_lib
 
 
 # %% Import data

@@ -12,7 +12,6 @@ v3: Modulo!
 import numpy as np
 import pandas as pd
 
-
 # %% Import data
 
 file_path = (
